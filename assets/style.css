@@ -37,3 +37,50 @@ main {
 	padding: 50px 20px;
 	box-sizing: border-box;
 }
+
+.contact-info {
+	display: flex;
+	justify-content: stretch;
+    align-items: stretch;
+}
+
+.contact-info .photo {
+	width: 300px;
+}
+
+.contact-info .photo img {
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+.contact-info .info {
+	flex-grow: 1;
+	padding-left: 40px;
+}
+
+h1, h2 {
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 42px;
+	font-weight: normal;
+	margin: 0 0 30px;
+	color: #009999;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: normal;
+	margin: 0 0 20px;
+}
+
+a {
+	color: #009999;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
