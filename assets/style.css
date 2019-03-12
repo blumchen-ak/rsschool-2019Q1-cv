@@ -34,7 +34,7 @@ footer {
 main {
 	max-width: 1064px;
 	margin: auto;
-	padding: 50px 20px;
+	padding: 0px 20px;
 	box-sizing: border-box;
 }
 
@@ -76,6 +76,10 @@ h2 {
 	margin: 0 0 20px;
 }
 
+section > h2 {
+	color: #009999;
+}
+
 a {
 	color: #009999;
 	text-decoration: none;
@@ -83,4 +87,9 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+section {
+	padding: 50px 0;
+	border-top: 1px solid #cecece;
 }
